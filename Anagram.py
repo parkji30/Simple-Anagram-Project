@@ -1,19 +1,3 @@
-"""CSC148 Exercise 7: Recursion Wrap-Up
-
-=== CSC148 Fall 2016 ===
-Diane Horton and David Liu
-Department of Computer Science,
-University of Toronto
-
-=== Module description ===
-This file contains starter code for Exercise 7.
-"""
-
-##############################################################################
-# Task 1: A variation on sorting
-##############################################################################
-
-
 def kth_smallest(lst, k):
     """Return the <k>-th smallest element in <lst>.
 
@@ -83,9 +67,6 @@ def partition(lst, pivot):
     return tuple_
 
 
-##############################################################################
-# Task 2: Something a little different
-##############################################################################
 # The file of English words to use. The one we've provided doesn't contain
 # plural forms. Assume this list is in alphabetical order.
 FILE = 'dict.txt'
