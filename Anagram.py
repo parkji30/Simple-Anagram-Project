@@ -236,5 +236,4 @@ def _within_letter_count(word, letter_count):
 
 
 if __name__ == '__main__':
-    import python_ta
-    python_ta.check_all(config='pylintrc.txt')
+   #Do something here#
